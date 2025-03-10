@@ -26,7 +26,7 @@ const BookRenewalForm: React.FC = () => {
     setLoading(true);
     try {
       const backendApiUrl = import.meta.env.VITE_BACKEND_API_URL;
-      const ApiUrl = `${backendApiUrl}/api/book-reminde`;
+      const ApiUrl = `${backendApiUrl}/api/book-reminder`;
       // const ApiUrl = "http://localhost:5000/api/book-reminder";
       const response = await axios.post(`${ApiUrl}`, {
         book,
