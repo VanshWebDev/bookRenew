@@ -1,0 +1,66 @@
+import {
+  BarChart2,
+  Globe,
+  Video,
+  AudioLines,
+  CalculatorIcon,
+} from "lucide-react";
+
+export const allActions = [
+  {
+    id: "1",
+    label: "Math",
+    icon: <CalculatorIcon className="h-4 w-4 text-blue-500" />,
+    description: "",
+    short: "",
+    end: "B.tech",
+  },
+  {
+    id: "2",
+    label: "DSA",
+    icon: <BarChart2 className="h-4 w-4 text-orange-500" />,
+    description: "",
+    short: "",
+    end: "Programming",
+  },
+  {
+    id: "3",
+    label: "Electronics",
+    icon: <Video className="h-4 w-4 text-purple-500" />,
+    description: "",
+    short: "",
+    end: "B.tech",
+  },
+  {
+    id: "4",
+    label: "FME",
+    icon: <AudioLines className="h-4 w-4 text-green-500" />,
+    description: "",
+    short: "",
+    end: "B.tech",
+  },
+  {
+    id: "5",
+    label: "Physics",
+    icon: <Globe className="h-4 w-4 text-blue-500" />,
+    description: "",
+    short: "",
+    end: "B.tech",
+  },
+  {
+    id: "6",
+    label: "Chemiestry",
+    icon: <Globe className="h-4 w-4 text-blue-500" />,
+    description: "",
+    short: "",
+    end: "B.tech",
+  },
+  {
+    id: "7",
+    label: "C++",
+    icon: <Globe className="h-4 w-4 text-blue-500" />,
+    description: "",
+    short: "",
+    end: "Programming",
+  },
+];
